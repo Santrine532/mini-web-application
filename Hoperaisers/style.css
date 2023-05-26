@@ -1,12 +1,77 @@
-/* * {
+*{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-} */
+} 
+body {
+  padding: 2em;
+  background: white;
+}
 #img {
   width: 100%;
   height: 100%;
 }
+header {
+  width: 100%;
+  margin: 1em;
+}
+header .top-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10em 0 10em;
+  border-bottom: solid.1em grey;
+}
+.top-header .logo img {
+  width: 10em;
+}
+.top-header .profile img {
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+}
+/*navigation*/
+nav{
+  height:10 ;
+  font-size: 1.2em;
+  font-weight: 600;
+  border-bottom: solid .1em red;
+}
+ul{
+  list-style: none;
+display: flex;
+justify-content: center;
+height: 100%;
+align-items: center;
+}
+ul li{
+  margin-right: 1em;
+  position: relative;
+}
+a {
+  color: gray;
+  text-decoration: none;
+}
+a.post{
+  color: #ffd500;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  display: none;
+
+}
+.dropdown:hover .dropdown-menu{
+  display: block;
+}
+.dropdown-menu li {
+  margin: 0;
+  width: 10em;
+}
+
+
 .list {
   text-align: center;
   display: flex;
@@ -14,6 +79,7 @@
   justify-content: space-between;
   margin: 0.5rem;
   padding: 0.5rem;
+  color: black;
 }
 .pro {
   color: #ffb611;
@@ -27,12 +93,14 @@
   justify-content: space-between;
   display: flex;
   list-style: none;
+
 }
 #header-text {
   display: flex;
   justify-content: center;
-  margin: 2rem;
+  margin: 4rem;
   padding: 1rem;
+  color: black;
 }
 .val {
   color: #ffb611;
@@ -41,9 +109,22 @@
 
 #sub-text {
   display: flex;
-  justify-content: space-between;
- /* color: #fdfbf3; */
- margin: 2rem;
- padding: 1rem;
- 
+  justify-content: center;
+  
+  margin: 4rem;
+  padding: 1rem;
+}
+
+.team {
+  color: #ffb611;
+  text-align: center;
+  
+}
+#actions {
+  display: flex;
+  justify-content: center;
+}
+#btn {
+  color: #ffb611;
+  text-align: center;
 }
