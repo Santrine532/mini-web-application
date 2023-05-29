@@ -89,7 +89,7 @@ a.post{
   height: 40px;
   width: 40px;
   border-radius: 90px;
-  background-color: #f4ebff;
+  /* background-color: #f4ebff; */
   justify-content: space-between;
   display: flex;
   list-style: none;
@@ -110,9 +110,16 @@ a.post{
 #sub-text {
   display: flex;
   justify-content: center;
-  
-  margin: 4rem;
+  background-color: #fdfbf3;
+  margin: 1rem;
   padding: 1rem;
+}
+.sub-text {
+  display: flex;
+  justify-content: center;
+  background-color: #fdfbf3;
+
+  
 }
 
 .team {
@@ -120,11 +127,119 @@ a.post{
   text-align: center;
   
 }
+.team-member{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.team-member figure{
+  display: flex;
+  flex-direction: column;
+  padding: .8em;
+  align-items: center;
+}
+/* 
 #actions {
   display: flex;
   justify-content: center;
-}
-#btn {
-  color: #ffb611;
+} */
+.btn {
+  color: black;
+  background: yellow;
   text-align: center;
+  
+}
+
+
+.partners {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fdfbf3;
+  padding: 6em;
+  margin: 6em;
+}
+
+.row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.row img{
+  padding: 1em;
+}
+
+.btn-partners button,.btn-team button, .subscribe button{
+  background: orange;
+  color: white;
+  padding: 1em;
+  border-radius: .5em;
+  border: none;
+}
+.social{
+  display: flex;
+ 
+}
+.social a{
+  padding: .5em;
+}
+.sub {
+  background-color: #ffb611;
+  border-radius: 5px;
+  font-weight: 600;
+  float: right;
+  margin-right: 8rem;
+}
+
+.input {
+  float: right;
+  border-radius: 5px;
+  margin-right: 2rem;
+  margin-bottom: 0.9rem;
+}
+
+.notification{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5em;
+}
+.subscribe input{
+  padding: 1em;
+}
+.List {
+  color: grey;
+  list-style: none;
+  display: flex;
+  font-weight: 550;
+  justify-content: left;
+  background-color: #fdfbf3;
+  
+}
+
+#footer {
+  background-color: #fdfbf3;
+}
+
+.footer {
+  float: right;
+  flex-direction: row;
+  background-color: #fdfbf3;
+
+
+}
+
+/* style="float: right;padding: 8rem;" */
+.social-footer{
+  float: right;
+  padding: 8rem;
+  background-color: #fdfbf3;
+
+}
+
+.end {
+  color: grey;
+  background-color: #fdfbf3;
+
 }
